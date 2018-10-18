@@ -11,3 +11,10 @@ function sumer() {
     let sume = input1 + input2;
     abz.innerHTML = sume;
 }
+
+function paragrefer() {
+    let elems = document.getElementsByTagName('p');
+    for (let i = 0; i < elems.length; i++) {
+        elems[i].innerHTML = 'Ку-ку';
+    }
+}
