@@ -32,3 +32,8 @@ function ClasserFOR() {
         elems[i - 1].innerHTML = i;
     }
 }
+
+function alertClass() {
+    let elem = document.getElementById('par');
+    alert(elem.getAttribute('class'));
+}
