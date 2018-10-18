@@ -42,3 +42,8 @@ function DeleteClass() {
     let elems = document.getElementsByTagName('p');
     elems[0].removeAttribute('class');
 }
+
+function setClass() {
+    let elems = document.getElementById('par');
+    elems.setAttribute('class','newer');
+}
