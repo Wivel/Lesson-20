@@ -45,5 +45,10 @@ function DeleteClass() {
 
 function setClass() {
     let elems = document.getElementById('par');
-    elems.setAttribute('class','newer');
+    elems.setAttribute('class', 'newer');
+}
+
+function repeater() {
+    let elemIN = document.getElementById('input'), elemSP = document.getElementById('spa');
+    elemSP.innerHTML = elemIN.value;
 }
