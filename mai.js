@@ -22,6 +22,13 @@ function paragrefer() {
 function Classer() {
     let elems = document.getElementsByClassName('www');
     for (let i = 1; i <= elems.length; i++) {
-        elems[i-1].innerHTML = i;
+        elems[i - 1].innerHTML = i;
+    }
+}
+
+function ClasserFOR() {
+    let elems = document.querySelectorAll('p.www');
+    for (let i = 1; i <= elems.length; i++) {
+        elems[i - 1].innerHTML = i;
     }
 }
