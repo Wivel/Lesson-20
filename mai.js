@@ -18,3 +18,10 @@ function paragrefer() {
         elems[i].innerHTML = 'Ку-ку';
     }
 }
+
+function Classer() {
+    let elems = document.getElementsByClassName('www');
+    for (let i = 1; i <= elems.length; i++) {
+        elems[i-1].innerHTML = i;
+    }
+}
