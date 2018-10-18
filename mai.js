@@ -37,3 +37,8 @@ function alertClass() {
     let elem = document.getElementById('par');
     alert(elem.getAttribute('class'));
 }
+
+function DeleteClass() {
+    let elems = document.getElementsByTagName('p');
+    elems[0].removeAttribute('class');
+}
