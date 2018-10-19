@@ -69,3 +69,11 @@ function DisRED(elemIN) {
     elemIN.value = 'Теперь меня нельзя нажать';
     elemIN.disabled = true;
 }
+
+function newPare() {
+    let elems = document.getElementsByTagName('p');
+    for (let i=0;i<elems.length;i++){
+        elems[i].innerHTML = i+1;
+    }
+
+}
