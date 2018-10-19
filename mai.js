@@ -71,9 +71,11 @@ function DisRED(elemIN) {
 }
 
 function newPare() {
-    let elems = document.getElementsByTagName('p');
-    for (let i=0;i<elems.length;i++){
-        elems[i].innerHTML = i+1;
+    let
+        elems   = document.getElementsByTagName('p');
+    for (let i=0;i<elems.length;i++)
+    {
+    elems[i].innerHTML = i+'. '+elems[i].innerHTML
     }
 
 }
