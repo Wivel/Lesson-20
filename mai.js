@@ -52,3 +52,12 @@ function repeater() {
     let elemIN = document.getElementById('input'), elemSP = document.getElementById('spa');
     elemSP.innerHTML = elemIN.value;
 }
+
+function refer() {
+    let elems = document.getElementsByTagName('a');
+
+    for (let i=0;i<elems.length;i++){
+        elems[i].innerHTML = elems[i].innerHTML+' ' + elems[i].getAttribute('href');
+    }
+
+}
