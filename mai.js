@@ -61,3 +61,11 @@ function refer() {
     }
 
 }
+
+function DisRED(elemIN) {
+    let elemSPAN = document.getElementById('span');
+    elemSPAN.innerHTML = 'Привет, мир!';
+    elemSPAN.style.color = 'red';
+    elemIN.value = 'Теперь меня нельзя нажать';
+    elemIN.disabled = true;
+}
